@@ -1,4 +1,3 @@
-// swagger 설정
 export const options = {
   definition: {
     openapi: "3.0.0",
@@ -7,5 +6,5 @@ export const options = {
       version: "1.0.0",
     },
   },
-  apis: ["./src/routes*.swagger.js"], // files containing annotations as above
+  apis: ["./swagger/*.swagger.js"], // files containing annotations as above
 };
